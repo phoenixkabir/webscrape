@@ -71,7 +71,8 @@ def add_to_gitignore(folder_name: str):
 def main():
     urls = [
         'https://en.wikipedia.org/wiki/Node.js',
-        'https://en.wikipedia.org/wiki/Chess'
+        'https://en.wikipedia.org/wiki/Chess',
+        'https://en.wikipedia.org/wiki/Python_(programming_language)'
         # Add more URLs here
     ]
 
