@@ -7,7 +7,7 @@ from urllib.parse import urlparse
 def fetch_webpage(url: str) -> str:
     try:
         response = requests.get(url)
-        response.raise_for_status()  # Check if the request was successful
+        response.raise_for_status() 
         return response.text
     except requests.RequestException as e:
         print(f"Error fetching the webpage {url}: {e}")
